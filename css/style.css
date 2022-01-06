@@ -21,6 +21,10 @@ a {
   width: 100vw;
 }
 
+:root {
+  --main-bg-color: rgba(52, 98, 43, 0.6);
+}
+
 ._container {
   margin-left: 62px;
   margin-right: 67px;
@@ -41,9 +45,14 @@ a {
           justify-content: space-between;
 }
 
-.ground .burger img {
+.ground svg {
+  fill: rgba(52, 98, 43, 0.6);
+}
+
+.ground .burger svg {
   height: 2.22vh;
   margin: 5.11vh 0 0 4vh;
+  stroke: rgba(52, 98, 43, 0.6);
 }
 
 .ground .social {
@@ -66,7 +75,7 @@ a {
 }
 
 .ground .page {
-  background: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
+  background: rgba(52, 98, 43, 0.6);
   border-radius: 1.7vh 0px 0px 1.7vh;
   height: 100vh;
   width: calc(100% - 11.11vh);
@@ -113,7 +122,7 @@ a {
   font-weight: 55.6vh;
   font-size: 2vh;
   line-height: 3vh;
-  color: #FFFFFF;
+  color: #ece1e1;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -153,7 +162,7 @@ a {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 56%;
           flex: 1 1 56%;
-  color: #FFFFFF;
+  color: #ece1e1;
   padding-top: 10.4vh;
 }
 
@@ -174,7 +183,7 @@ a {
   margin-top: 9.11vh;
   text-transform: capitalize;
   background: none;
-  border: 3px solid #FFFFFF;
+  border: 3px solid #ece1e1;
   -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: calc(7.8vh / 2);
@@ -218,7 +227,7 @@ a {
 }
 
 .ground .page .content .presentation .shadow {
-  background: #ABC6D6;
+  background: rgba(52, 98, 43, 0.6);
   -webkit-filter: blur(1.7vh);
           filter: blur(1.7vh);
   height: 5.6vh;
@@ -256,24 +265,24 @@ a {
 }
 
 .ground .page .content .switch div:nth-child(1) {
-  background: #404354;
+  background: #34622b;
 }
 
 .ground .page .content .switch div:nth-child(2) {
   width: 3.4vh;
   height: 3.4vh;
-  background: #ABC6D6;
+  background: #939179;
   border: 0.33vh solid #FFFFFF;
   -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 .ground .page .content .switch div:nth-child(3) {
-  background: #58D7C4;
+  background: #a34f4f;
 }
 
 .ground .page .content .switch div:nth-child(4) {
-  background: #F2CEC6;
+  background: #3b4064;
 }
 
 .ground .page .content .switch div:not(:last-child) {
@@ -294,7 +303,7 @@ a {
 }
 
 .ground .page footer .pages {
-  color: #FFFFFF;
+  color: #ece1e1;
   font-size: 2.33vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -325,6 +334,7 @@ a {
   border-radius: 1.11vh;
   margin-right: 3.22vh;
   position: relative;
+  border: 2px solid #ece4e4;
 }
 
 .ground .page footer .variants div img {
@@ -332,18 +342,30 @@ a {
   width: 10vh;
   left: 15%;
   bottom: 12%;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.ground .page footer .variants div img:hover {
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
 }
 
 .ground .page footer .variants div:nth-child(1) {
-  background: rgba(67, 69, 88, 0.6);
+  background: rgba(52, 98, 43, 0.6);
 }
 
 .ground .page footer .variants div:nth-child(2) {
-  background: rgba(106, 221, 204, 0.6);
+  background: rgba(174, 168, 109, 0.6);
 }
 
 .ground .page footer .variants div:nth-child(3) {
-  background: rgba(249, 205, 196, 0.6);
+  background: rgba(163, 79, 79, 0.6);
+}
+
+.ground .page footer .variants div:nth-child(4) {
+  background: rgba(59, 64, 100, 0.6);
   margin-right: 3.33vh;
 }
 /*# sourceMappingURL=style.css.map */

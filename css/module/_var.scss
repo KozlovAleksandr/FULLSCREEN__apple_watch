@@ -1,5 +1,12 @@
-$mainColor: linear-gradient(294.28deg, #C8DCE6 0%, #B6CCDA 100%);
-$decorColor: #FFFFFF;
+$mainColor: rgba(52, 98, 43, 0.6);
+// $mainColor: rgba(174, 168, 109, 0.6);
+// $mainColor: rgba(163, 79, 79, 0.6);
+// $mainColor: rgba(59, 64, 100, 0.6);
+$decorColor: rgb(236, 225, 225);
+
+:root {
+  --main-bg-color: rgba(52, 98, 43, 0.6);
+}
 
 @mixin headerText {
   font-weight: 55.6vh;
