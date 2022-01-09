@@ -45,14 +45,41 @@ a {
           justify-content: space-between;
 }
 
-.ground svg {
+.ground svg.mainGreen {
   fill: rgba(52, 98, 43, 0.6);
 }
 
-.ground .burger svg {
+.ground svg.mainBeige {
+  fill: rgba(174, 168, 109, 0.6);
+}
+
+.ground svg.mainRed {
+  fill: rgba(163, 79, 79, 0.6);
+}
+
+.ground svg.mainBlue {
+  fill: rgba(59, 64, 100, 0.6);
+}
+
+.ground .burger__icon {
   height: 2.22vh;
   margin: 5.11vh 0 0 4vh;
+}
+
+.ground .burger__icon.mainGreen {
   stroke: rgba(52, 98, 43, 0.6);
+}
+
+.ground .burger__icon.mainBeige {
+  stroke: rgba(174, 168, 109, 0.6);
+}
+
+.ground .burger__icon.mainRed {
+  stroke: rgba(163, 79, 79, 0.6);
+}
+
+.ground .burger__icon.mainBlue {
+  stroke: rgba(59, 64, 100, 0.6);
 }
 
 .ground .social {
@@ -75,13 +102,28 @@ a {
 }
 
 .ground .page {
-  background: rgba(52, 98, 43, 0.6);
   border-radius: 1.7vh 0px 0px 1.7vh;
   height: 100vh;
   width: calc(100% - 11.11vh);
   position: absolute;
   top: 0px;
   right: 0px;
+}
+
+.ground .page.mainGreen {
+  background: rgba(52, 98, 43, 0.6);
+}
+
+.ground .page.mainBeige {
+  background: rgba(174, 168, 109, 0.6);
+}
+
+.ground .page.mainRed {
+  background: rgba(163, 79, 79, 0.6);
+}
+
+.ground .page.mainBlue {
+  background: rgba(59, 64, 100, 0.6);
 }
 
 .ground .page header {
@@ -227,12 +269,27 @@ a {
 }
 
 .ground .page .content .presentation .shadow {
-  background: rgba(52, 98, 43, 0.6);
   -webkit-filter: blur(1.7vh);
           filter: blur(1.7vh);
   height: 5.6vh;
   width: 34.3vh;
   border-radius: 50%;
+}
+
+.ground .page .content .presentation .shadow.mainGreen {
+  background: rgba(52, 98, 43, 0.6);
+}
+
+.ground .page .content .presentation .shadow.mainBeige {
+  background: rgba(174, 168, 109, 0.6);
+}
+
+.ground .page .content .presentation .shadow.mainRed {
+  background: rgba(163, 79, 79, 0.6);
+}
+
+.ground .page .content .presentation .shadow.mainBlue {
+  background: rgba(59, 64, 100, 0.6);
 }
 
 .ground .page .content .switch {
@@ -264,17 +321,20 @@ a {
   cursor: pointer;
 }
 
+.ground .page .content .switch div.big {
+  width: 3.4vh;
+  height: 3.4vh;
+  border: 0.33vh solid #FFFFFF;
+  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
 .ground .page .content .switch div:nth-child(1) {
   background: #34622b;
 }
 
 .ground .page .content .switch div:nth-child(2) {
-  width: 3.4vh;
-  height: 3.4vh;
-  background: #939179;
-  border: 0.33vh solid #FFFFFF;
-  -webkit-box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+  background: #aea86d;
 }
 
 .ground .page .content .switch div:nth-child(3) {
